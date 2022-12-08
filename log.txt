@@ -1,4 +1,34 @@
-error logs
+Local Repository
+git init	//Initilize Local Git Repository
+git add <file>	//Add File(s) to Staging
+git status	//Check Status at Staging area
+git commit	//Commit Changes to local repository
+
+Remote Repository
+git push	//Push to Remote Repository
+git pull	//Pull Latest From Remote Repository
+git clone	//Clone Repository int a new Directory
+
+git config --global user.name 'ahmadev'
+git config --global user.email 'ma.ml.ai.lb@gmail.com'
+
+git add .
+git add index.html
+git add *.html
+
+git status
+git commit -m 'message'
+
+
+touch .gitignore
+
+git branch namebranch		//create branch
+
+git checkout namebranch		//switch branch
+
+git merge namebranch -m 'message'
+
+
 
 git init
 git add file
